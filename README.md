@@ -20,5 +20,6 @@ Robotican (old package for lizi. No more available on their website)
 aruco_mapping - https://github.com/Aakriti05/aruco_mapping 
 
 ## STAGE 1 
+`roslaunch lizi_mapping hector.launch`
 
 ## STAGE 2
