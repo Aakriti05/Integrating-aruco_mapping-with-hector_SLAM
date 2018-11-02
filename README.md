@@ -14,8 +14,10 @@ lizi robot
 
 ## Packages used and modified
 Hector_slam
+
 Robotican (old package for lizi. No more available on their website)
-aruco_mapping
+
+aruco_mapping - https://github.com/Aakriti05/aruco_mapping 
 
 ## STAGE 1 
 
