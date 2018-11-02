@@ -7,7 +7,9 @@ Stage2 : The above map is loaded. Path-planning and localization has been done w
 
 ## System Specifications
 ros-indigo
+
 ubuntu 14.04
+
 lizi robot
 
 ## Packages used and modified
