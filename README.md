@@ -24,7 +24,9 @@ Stage2 : The above map is loaded. Path-planning and localization has been done w
 
 ## STAGE 1 Commands for real-life mapping
 `roslaunch lizi_mapping hector.launch`
+
 `roslaunch aruco_mapping aruco_mapping.launch`
+
 `rosrun`
 
 ## STAGE 2 Commands for Gazebo Simulation
