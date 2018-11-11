@@ -16,15 +16,15 @@ Stage2 : The above map is loaded. Path-planning and localization has been done w
 * aruco_mapping - https://github.com/Aakriti05/aruco_mapping 
 
 ## New Packages
-* aruco_tf_lizi
-### Features: 
-* aruco_turtle_sim
-### Features: 
+* ### aruco_tf_lizi - https://github.com/Aakriti05/aruco_tf_lizi
+
+* ### aruco_turtle_sim
 * lizi_mapping
-### Features: 
 
 ## STAGE 1 Commands for real-life mapping
 `roslaunch lizi_mapping hector.launch`
+`roslaunch aruco_mapping aruco_mapping.launch`
+`rosrun `
 
 ## STAGE 2 Commands for Gazebo Simulation
 `roslaunch aruco_mapping aruco_mapping.launch`
