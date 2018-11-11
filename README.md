@@ -6,23 +6,31 @@ Stage1 : Mapping using hector_slam with realtime insertion of aruco markers in t
 Stage2 : The above map is loaded. Path-planning and localization has been done with using aruco markers and odometry. Aruco_markers estimate pose which is used to correct the drift in odometry calculation.
 
 ## System Specifications
-ros-indigo
-
-ubuntu 14.04
-
-lizi robot
+* ros-indigo
+* ubuntu 14.04
+* lizi robot
 
 ## Packages used and modified
-Hector_slam
+* Hector_slam 
+* Robotican (old package for lizi. No more available on their website)
+* aruco_mapping - https://github.com/Aakriti05/aruco_mapping 
 
-Robotican (old package for lizi. No more available on their website)
+## New Packages
+* aruco_tf_lizi
+### Features: 
+* aruco_turtle_sim
+### Features: 
+* lizi_mapping
+### Features: 
 
-aruco_mapping - https://github.com/Aakriti05/aruco_mapping 
+## STAGE 1 Commands for real-life mapping
+`roslaunch lizi_mapping hector.launch`
 
-## STAGE 1 
-`<roslaunch lizi_mapping hector.launch>`
-
-## STAGE 2
+## STAGE 2 Commands for Gazebo Simulation
+`roslaunch aruco_mapping aruco_mapping.launch`
+`roslaunch aruco_turtle_sim nav_turtle.launch`
+`rosrun aruco_tf_lizi read_bag`   (check)
+`rosrun aruco_tf_lizi view_bag`   (check)
 
 
 
