@@ -31,8 +31,11 @@ Stage2 : The above map is loaded. Path-planning and localization has been done w
 
 ## STAGE 2 Commands for Gazebo Simulation
 `roslaunch aruco_mapping aruco_mapping.launch`
+
 `roslaunch aruco_turtle_sim nav_turtle.launch`
-`rosrun aruco_tf_lizi read_bag`  
+
+`rosrun aruco_tf_lizi read_bag` 
+
 `rosrun aruco_tf_lizi view_bag`  
 
 
