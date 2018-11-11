@@ -27,7 +27,7 @@ Stage2 : The above map is loaded. Path-planning and localization has been done w
 
 `roslaunch aruco_mapping aruco_mapping.launch`
 
-`rosrun`
+`rosrun aruco_tf_lizi lizi_broadcaster`
 
 ## STAGE 2 Commands for Gazebo Simulation
 `roslaunch aruco_mapping aruco_mapping.launch`
@@ -36,6 +36,6 @@ Stage2 : The above map is loaded. Path-planning and localization has been done w
 
 `rosrun aruco_tf_lizi read_bag` 
 
-`rosrun aruco_tf_lizi view_bag`  
+`rosrun aruco_tf_lizi view_markers`  
 
 
