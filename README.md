@@ -17,12 +17,10 @@ Stage2 : The above map is loaded. Path-planning and localization has been done w
 
 ## New Packages
 * __aruco_tf_lizi__ - https://github.com/Aakriti05/aruco_tf_lizi
-   _Description_ : 
-   * finds out the transform between /map and /world and 
-   * fkjsdfhkjsdhfg
 
-* ### aruco_turtle_sim
-* lizi_mapping
+* __aruco_turtle_sim__ - 
+   
+* __lizi_mapping__ - https://github.com/fauzanzaid/lizi_mapping
 
 ## STAGE 1 Commands for real-life mapping
 `roslaunch lizi_mapping hector.launch`
