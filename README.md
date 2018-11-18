@@ -18,7 +18,7 @@ Stage2 : The above map is loaded. Path-planning and localization has been done w
 ## New Packages
 * __aruco_tf_lizi__ - https://github.com/Aakriti05/aruco_tf_lizi
 
-* __aruco_turtle_sim__ - 
+* __aruco_turtle_simulation__ - https://github.com/surgeonofdeath/aruco_turtle_simulation
    
 * __lizi_mapping__ - https://github.com/fauzanzaid/lizi_mapping
 
