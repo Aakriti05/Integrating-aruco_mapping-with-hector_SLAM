@@ -41,8 +41,8 @@ Stage2 : The above map is loaded. Path-planning and localization has been done w
 
 Authors- 
 
-*Rohitkumar Arasanipalai - f2015666@pilani.bits-pilani.ac
-*Aakriti Agrawal - f2015666@pilani.bits-pilani.ac
-*Fauzan Zaid Khan - f2015057@pilani.bits-pilani.ac
+* Rohitkumar Arasanipalai - f2015666@pilani.bits-pilani.ac
+* Aakriti Agrawal - f2015666@pilani.bits-pilani.ac
+* Fauzan Zaid Khan - f2015057@pilani.bits-pilani.ac
 
 
